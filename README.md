@@ -1,6 +1,7 @@
 Description
 =====
 My MOTD scripts for my Proxmox nodes
+
 A modified version of [yboetz's](https://github.com/yboetz/motd) MOTD from GitHub
 
 Preview
@@ -16,6 +17,6 @@ Simply install it on your proxmox nodes with:
 
 Installation
 =====
-On your proxmox nodes, place all the scripts inside the `/etc/update-motd.d/`
+On your proxmox nodes, clone all the scripts inside the `/etc/update-motd.d/`
 
 Set `PrintMotd` to `no` inside your `/etc/ssh/sshd_config`
