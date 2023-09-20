@@ -3,10 +3,11 @@
 # You need to install the tool figlet for this to work!
 # apt-get install figlet
 DOMAIN="voklab.ch"
+INTERFACE="vmbr0.2"
 echo "--------------------------------------------------------------------"
 figlet -f slant "				$DOMAIN"
 echo ""
-echo "		https://$(ip -o addr show vmbr0.2 | awk '{print $4}' | head -n1 | awk -F"/" '{print $1}'):8006/"
+echo "		https://$(ip -o addr show $INTERFACE | awk '{print $4}' | head -n1 | awk -F"/" '{print $1}'):8006/"
 echo "		https://$(hostname).$DOMAIN:8006/"
 echo ""
 echo "--------------------------------------------------------------------"
