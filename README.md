@@ -17,6 +17,7 @@ Simply install it on your proxmox nodes with:
 
 Installation
 =====
-On your proxmox nodes, clone all the scripts inside the `/etc/update-motd.d/` directory
 
-Set `PrintMotd` to `no` inside your `/etc/ssh/sshd_config`
+1. On your proxmox nodes, clone all the scripts inside the `/etc/update-motd.d/` directory
+2. Delete the `/etc/motd` file
+3. Set `PrintMotd` to `no` inside your `/etc/ssh/sshd_config`
