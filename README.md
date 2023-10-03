@@ -13,7 +13,7 @@ Requirements
 For the banner to work, you only need the "figlet" package.
 Simply install it on your proxmox nodes with:
 
-    sudo apt install figlet -y
+    apt install figlet -y
 
 Installation
 =====
