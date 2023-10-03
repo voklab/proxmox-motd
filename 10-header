@@ -2,8 +2,8 @@
 # This script generates a ascii art heading
 # You need to install the tool figlet for this to work!
 # apt-get install figlet
-DOMAIN="voklab.ch"
-INTERFACE="vmbr0.2"
+DOMAIN="example.com"
+INTERFACE="vmbr0"
 echo "--------------------------------------------------------------------"
 figlet -f slant "				$DOMAIN"
 echo ""
