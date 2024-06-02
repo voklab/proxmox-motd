@@ -2,7 +2,7 @@
 # This script prints basic system information
 # Most of the script was created by yboetz
 # https://github.com/yboetz/motd/blob/master/20-sysinfo
-DOMAIN="voklab.ch"
+DOMAIN="example.com"
 
 # get load averages
 IFS=" " read -r LOAD1 LOAD5 LOAD15 <<<"$(awk '{ print $1,$2,$3 }' /proc/loadavg)"
